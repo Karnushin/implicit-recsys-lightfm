@@ -28,7 +28,10 @@ My notes:
     
     For MAP@K order is important but here's no given order so first of all I'll look at mean precision@10
     I'll use split from lightfm.cross_validation module because there're no any info how to do it
-    There're cold users and items. They do not impact on quality of metrics on test data. Since task is still to recommend  10 items for users, I'll take the most 10 popular items and recommend them for cold users. This strategy is also justified due to the case that user's features make lightfm be worse and quality of user's feature is quite bad (what I mean will be visible furthere)
+    There're cold users and items. They do not impact on quality of metrics on test data.
+    Since task is still to recommend  10 items for users, I'll take the most 10 popular
+    items and recommend them for cold users. This strategy is also justified due to the case that user's
+    features make lightfm be worse and quality of user's feature is quite bad (what I mean will be visible furthere)
     
 Also it can be that we'd like to recommend some new items for current users (and new ones) or find similar items for curent ones, etc. but it's not these cases now.
 
