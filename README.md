@@ -36,3 +36,5 @@ My notes:
 Also it can be that we'd like to recommend some new items for current users (and new ones) or find similar items for curent ones, etc. but it's not these cases now.
 
 In real case recsys strong depends on business requirements (should we add new items and how, what recommend to new users and why, can cold users or items appear or not, etc) and the best thing to test is A/B
+
+Approximate Nearest Neighbors (ANN) is used to get features for warm users without them, based on feedback
